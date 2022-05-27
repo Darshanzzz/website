@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link href="style.css" rel="stylesheet"> 
+    </head>
+    <body id="text">
+     <h3>Log in</h3>
+    <form action="/action_page.php">
+        <label>Email address:</label><br>
+        <input type="text" id="email" name="email" placeholder="xxxx@gmail.com" required><br>
+        <br>
+        <label >Password:</label><br>
+        <input type="password" id="pwd" name="pwd" placeholder="*****" required><br><br>
+
+    <h3>Gender</h3>  
+        <input type="radio" id="gen1" name="gen1" value="Male">
+        <label>Male</label><br>
+        <input type="radio" id="gen2" name="gen2" value="Female">
+        <label>Female</label><br>
+
+    <h3>Date of birth</h3>
+        <label for="birthday"></label>
+        <input type="date" id="birthday" name="birthday" required>
+
+      <br>
+      <h3>Level of course</h3>
+
+        <input type="checkbox" id="item1" name="item1" value="keyboard">
+        <label>Beginner</label><br>
+        <input type="checkbox" id="item2" name="item2" value="mouse">
+        <label>Intermediate</label><br>
+        <input type="checkbox" id="item3" name="item3" value="speaker" >
+        <label>Advanced</label>
+
+      <br>      
+
+    <h3>Programming language</h3>
+      <select name="OS" id="OS">
+        <option value="Python">Python</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="C++">C++</option>
+      </select>
+    <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <a href="index.html" target="_blank"> <b>Back to home<b></a>  
+    </body>
+</html>
